@@ -50,6 +50,8 @@ function actualizarHora() {
         dias = 0
         textoHoras = 0
         textoMinutos = 0
+        textoSegundos = 0
+        var cuentaTerminada = document.getElementById("cuentaTerminada").innerHTML = "tiempo terminado"
         clearInterval(intervalo)
     }
 
